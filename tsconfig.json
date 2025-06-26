@@ -3,6 +3,17 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
+    "paths": {
+      "button-ui-lib": [
+        "dist/button-ui-lib"
+      ],
+      "toast-notification-lib": [
+        "dist/toast-notification-lib"
+      ],
+      "truncate-text-lib": [
+        "dist/truncate-text-lib"
+      ]
+    },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
