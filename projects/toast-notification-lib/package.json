@@ -1,12 +1,27 @@
 {
-  "name": "toast-notification-lib",
+  "name": "@danyalkhan/toast-notification-lib",
   "version": "0.0.1",
+  "description": "A reusable Angular toast notification library",
+  "main": "./bundles/toast-notification-lib.umd.js",
+  "module": "./fesm2015/toast-notification-lib.js",
+  "es2015": "./fesm2015/toast-notification-lib.js",
+  "esm2015": "./esm2015/toast-notification-lib.js",
+  "fesm2015": "./fesm2015/toast-notification-lib.js",
+  "typings": "./toast-notification-lib.d.ts",
+  "sideEffects": false,
   "peerDependencies": {
-    "@angular/common": "^16.2.0",
-    "@angular/core": "^16.2.0"
+    "@angular/common": "^16.0.0",
+    "@angular/core": "^16.0.0",
+    "rxjs": "^7.0.0"
   },
-  "dependencies": {
-    "tslib": "^2.3.0"
-  },
-  "sideEffects": false
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "toast",
+    "notification"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danyalkhan-25/learning-libs"
+  }
 }
